@@ -2,10 +2,10 @@
   "name": "piggame",
   "version": "1.0.0",
   "description": "little game",
-  "main": "script.js",
+  "default": "script.js",
   "scripts": {
     "start": "parcel index.html ",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Santiago Ospina",
   "license": "ISC",
