@@ -53,14 +53,9 @@ btnRoll.addEventListener('click', function () {
     //Set images parcel
     let diceImg;
 
-    if (dice === 1) {
-      diceImg = '1.132e1c85';
-      console.log(diceImg);
-    }
-
     // 2. Display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `img/prueba-${dice}.png`;
+    diceEl.src = `https://raw.githubusercontent.com/santiagoospina21/pig-game/master/img/dice-${dice}.png`;
 
     // 3. Check for rolled 1
     if (dice !== 1) {
